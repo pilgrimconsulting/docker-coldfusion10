@@ -14,7 +14,7 @@ Download the binary from Adobe and put it on your network where it is accessible
 
 # How to use this repository
 
-ColdFusion 10 as Docker image on Ubuntu 14.04.
+ColdFusion 10 as Docker image on Ubuntu 16.04.
 
 If you are on a VM or something and you need to download the coldfusion binary and patch files from a local file server update prepare.sh and then run it.
 
