@@ -3,6 +3,10 @@
 cd $(dirname "$0")
 cd build/install
 
+apt-get install docker.io git
+curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+
 CF_SOURCE="http://coldfusion.virusx.rocks"
 
 if [ ! -f "ColdFusion_10_WWEJ_linux64.bin" ]

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  coldfusion:
+    build: .
+    volumes:
+      - "./demo-www:/var/www"
+#      - "/var/www:/var/www"
+    ports:
+      - "8080:80"
